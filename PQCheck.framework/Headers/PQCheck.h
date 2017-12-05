@@ -58,11 +58,17 @@ typedef void (^PQCheckResultBlock)(NSError* error, PQCheckResult result, PQCheck
 
 
 // Voice Activity Detection (VAD) parameters
-@property (nonatomic) int vadStrictness;           // defaults to 3 (most strict)
-@property (nonatomic) float vadNoiseThreshold;     // defaults to -40.7dB
-@property (nonatomic) int vadCounterThresholdLow;  // defaults to -40
-@property (nonatomic) int vadCounterThresholdHigh; // defaults to 8
-@property (nonatomic) int vadAudioSliceSizeMs;     // defaults to 20 and must be 10,20,or 30
+@property (nonatomic) float vadMinimumVolumeDB;      // -45
+@property (nonatomic) int vadSpeechVolumeDeltaMin;   // 7     (dB gain for non-speech to speech, range 1 to 20)
+@property (nonatomic) int vadPhraseStrictness;       // 0
+@property (nonatomic) int vadPhraseSamplePeriodMs;   // 400
+@property (nonatomic) int vadPhraseOnThreshold;      // 8
+@property (nonatomic) int vadPhraseOffThreshold;     // -20
+@property (nonatomic) int vadSequenceStrictness;     // 0
+@property (nonatomic) int vadSequenceSamplePeriodMs; // 200
+@property (nonatomic) int vadSequenceOnThreshold;    // 5
+@property (nonatomic) int vadSequenceOffThreshold;   // -5
+
 
 // Min & max recording durations
 @property (nonatomic) float minRecordDuration; // defaults to 2 seconds
