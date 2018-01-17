@@ -101,9 +101,13 @@ typedef void (^PQCheckResultBlock)(NSError* error, PQCheckResult result, PQCheck
 @property (nonatomic) UIColor* colorTextNormal;
 @property (nonatomic) UIColor* colorTextRecognized;
 @property (nonatomic) UIColor* colorTextDone;
+@property (nonatomic) UIColor* colorNumberSequenceCompleted;
 @property (nonatomic) UIImage* imageVoiceRecording;
 @property (nonatomic) bool colouredPreview; // defaults to false
 @property (nonatomic) NSString* successMessage;
+@property (nonatomic) NSString* customDoneTitlePrefix;
+@property (nonatomic) bool verboseLogging;
+
 
 // API
 @property (nonatomic) NSDictionary<NSString *, NSString *>* httpHeaders;

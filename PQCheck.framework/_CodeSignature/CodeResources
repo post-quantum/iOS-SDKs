@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		36p2u9examc3w/uCSBlXBy/l0A8=
+		J4Y8E/1Ts80EjCFpf0w4L1MzFvc=
 		</data>
 		<key>Headers/PQCheck.h</key>
 		<data>
-		oJMBTxUudF7HX1dKvLQdeM5OS7Q=
+		4EGQZY9EIze3WFM0aIEA4GKoOi4=
 		</data>
 		<key>Headers/PQCheckAssertion.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dqjooFLM1/dMSLCP61bZTzaOyZ4=
+		SdXRutLeCww+Qr6Gleq/qGLjDo0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,17 +58,17 @@
 		</data>
 		<key>PQCheckViewController.nib</key>
 		<data>
-		giH9/GzGxYAL0a+irbT6/jOgQww=
+		K8aYzFJYZrf2G4Ho4BfpQXwZUjg=
 		</data>
 		<key>VADTunerViewController.nib</key>
 		<data>
-		MP6oQ8u3DvVUrmHlQ4IZLHtLASE=
+		V9iH3+TLt7vpIs99HJbwIZihvOY=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FXGTaEQjUfhoIrkFGV+ZMlGFTsc=
+			yiCmixbJl2aqzNzFI11C9qQTPCs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,16 +77,20 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i1h5eqVWGQq01dMKRCEu/Mz3orI=
+			d4+X8IM3/VWHO7TvktF3JRkyxzM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>spoken_digit.nib</key>
+		<data>
+		XmuhkkdU7R4kNahYc++z6MTVStg=
+		</data>
 		<key>yue-HK.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FWCA51ix5UB7ZrJEX4ZFhbqW9Vc=
+			v67HSS8JU7ya+CBXMcEFI3257wQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -95,7 +99,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/w9EqbMUfJRVMREKmnGGPDyLNhQ=
+			66aJqxnOaeIz6bH787kKmnl9k4w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -104,7 +108,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5G4QIw9OVCskU5KvYJx8eKOAxV8=
+			JqEzQ6xiSvK3n1wInZOZsZjhvIg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -116,22 +120,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			36p2u9examc3w/uCSBlXBy/l0A8=
+			J4Y8E/1Ts80EjCFpf0w4L1MzFvc=
 			</data>
 			<key>hash2</key>
 			<data>
-			JyR1AnjAYAKPUqsMQSiqhoXTWGBcDmxcxDPpJX0kQbA=
+			lIyAULNu0KtBy29nGROv9azA730GICt6TstEKCJhqv8=
 			</data>
 		</dict>
 		<key>Headers/PQCheck.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oJMBTxUudF7HX1dKvLQdeM5OS7Q=
+			4EGQZY9EIze3WFM0aIEA4GKoOi4=
 			</data>
 			<key>hash2</key>
 			<data>
-			yzWnG/wWoXp7rf4aqy1KaS0p5kT4SzYQ94f27cuRwM0=
+			9IbS3lXq87BOJXv9yWwq7TdFz3rY6pp8mSf+so+SvyM=
 			</data>
 		</dict>
 		<key>Headers/PQCheckAssertion.h</key>
@@ -248,33 +252,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			giH9/GzGxYAL0a+irbT6/jOgQww=
+			K8aYzFJYZrf2G4Ho4BfpQXwZUjg=
 			</data>
 			<key>hash2</key>
 			<data>
-			BlNVBeIIPf4P4LVHokswAfK6XJONZjhrGBHP0UY6tPU=
+			nl2eeyPyJhQpKpA55YtTDIt5gljCk6ApqJsp1QTyMNM=
 			</data>
 		</dict>
 		<key>VADTunerViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MP6oQ8u3DvVUrmHlQ4IZLHtLASE=
+			V9iH3+TLt7vpIs99HJbwIZihvOY=
 			</data>
 			<key>hash2</key>
 			<data>
-			55T2jJkAlOb7y+16PYLAecSkKXUyXHs7RO4FQn6kwjw=
+			hYRqUiVo1Sn9+hOH0y1NkHrkJGgONMX9eYbFdIR2Dbg=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FXGTaEQjUfhoIrkFGV+ZMlGFTsc=
+			yiCmixbJl2aqzNzFI11C9qQTPCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			fufExKR44uw7ZLNRbNWiIG3zUti2O+XvkvP/5fszhSM=
+			8OM8+7+31WD/HY7oxrHPy7neHtO7BCqGcpwVrytV6GI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -283,24 +287,35 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i1h5eqVWGQq01dMKRCEu/Mz3orI=
+			d4+X8IM3/VWHO7TvktF3JRkyxzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			x4xNM9hzbwjNyvVQxidpL0Rxtu15GLAQ6+FLCBcqlZQ=
+			RJnJxAN3cRQjGde/EEXsJbYjai5bzR6EnIx0/hhYUD0=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>spoken_digit.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XmuhkkdU7R4kNahYc++z6MTVStg=
+			</data>
+			<key>hash2</key>
+			<data>
+			8mN7dwD8AMQN13D6+RIi3YAIIECV6xPv0XhJgWdy2yU=
+			</data>
 		</dict>
 		<key>yue-HK.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FWCA51ix5UB7ZrJEX4ZFhbqW9Vc=
+			v67HSS8JU7ya+CBXMcEFI3257wQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZLp0r8hhJedGA4LCZYGPD6a8Qq+wCNySjhdZV5qPMXI=
+			YTPU7+8P5i7Do+5YVO6J68oyi+PBOKhCWfQPmY8aoyI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -309,11 +324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/w9EqbMUfJRVMREKmnGGPDyLNhQ=
+			66aJqxnOaeIz6bH787kKmnl9k4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			bZYQUFrvWM0rsYZ1b0oyfJtvxpFsY/0WEPnNyTYActQ=
+			QuVhP7OcrPwSc1DcXsW9tz/ExJkH7n8V1G5OcmOqqnI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -322,11 +337,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5G4QIw9OVCskU5KvYJx8eKOAxV8=
+			JqEzQ6xiSvK3n1wInZOZsZjhvIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			VsqwU/xPU4rhDXGXEcgsVuQ8HiUrMapT3W/++myT/uA=
+			4lePKI8gAMqg756rQjILDeTrWaCqQJIixk8ctN3HBF4=
 			</data>
 			<key>optional</key>
 			<true/>
