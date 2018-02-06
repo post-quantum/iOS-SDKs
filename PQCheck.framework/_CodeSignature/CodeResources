@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		bwwCXofa4RQ1gXT9o1lRTfcqGhQ=
+		WEZ7SVgxwUMTpiCUQZGnK1Icrb4=
 		</data>
 		<key>Headers/PQCheck.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IrWPwuLXUttdjDfMN6TW5A2pq0Q=
+		UFHB1eRBzDIEGiSMx9fBeIigvrY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>PQCheckViewController.nib</key>
 		<data>
-		rS4u8Qx8MOICR1wYz2glxrG32vI=
+		8WeCh1UrSuITOVbJtYKBo4IyBZI=
 		</data>
 		<key>VADTunerViewController.nib</key>
 		<data>
-		gf/+Z2mmPOSm2FolJzYNr/9hxik=
+		f5Ob2Gk4FekIQ3Nu6KfP5N/s3Ck=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -84,9 +84,18 @@
 		</dict>
 		<key>spoken_digit.nib</key>
 		<data>
-		LAzJDZC3xnEzrrHYp+vCr4UvCq0=
+		Ik07Ee8Rr0kuWLR6jgwcDhxLNqM=
 		</data>
-		<key>yue-HK.lproj/Localizable.strings</key>
+		<key>zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JqEzQ6xiSvK3n1wInZOZsZjhvIg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-Hant-HK.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -95,20 +104,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>zh-Hant-TW.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			66aJqxnOaeIz6bH787kKmnl9k4w=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>zh-Hant.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JqEzQ6xiSvK3n1wInZOZsZjhvIg=
+			66aJqxnOaeIz6bH787kKmnl9k4w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -120,11 +120,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bwwCXofa4RQ1gXT9o1lRTfcqGhQ=
+			WEZ7SVgxwUMTpiCUQZGnK1Icrb4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FYdO/ByFrophjGAk6xs/VpL7RN7FZP8SRbCvAhJzBQE=
+			cp+znPJGiobLK0/X3a0rUkrl/YhcZ7KfI8XAjrqy7Rk=
 			</data>
 		</dict>
 		<key>Headers/PQCheck.h</key>
@@ -252,22 +252,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rS4u8Qx8MOICR1wYz2glxrG32vI=
+			8WeCh1UrSuITOVbJtYKBo4IyBZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			TvxsMtsa4XoQeK6L5BDZtmo6O2CpF6n7/LoEX0uv+wg=
+			016+kSO4ZDpzd+S1DA6H1j2my5wr1LD1l3mNCl6uYiA=
 			</data>
 		</dict>
 		<key>VADTunerViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gf/+Z2mmPOSm2FolJzYNr/9hxik=
+			f5Ob2Gk4FekIQ3Nu6KfP5N/s3Ck=
 			</data>
 			<key>hash2</key>
 			<data>
-			UPiGcJ/7mIUtTeO6g+Qy9AYL3Pdd87l99M0uI7FXyC8=
+			dnRVyCyxDiJF5nzYqaCE0xLBMPXawMsKdA/uOzTLTQA=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
@@ -300,14 +300,27 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LAzJDZC3xnEzrrHYp+vCr4UvCq0=
+			Ik07Ee8Rr0kuWLR6jgwcDhxLNqM=
 			</data>
 			<key>hash2</key>
 			<data>
-			SPXaSqGvL2V8ikfj3JN0C0kwLr7zw97gRNfD632ab/U=
+			c5sTbPbutXFaER7HcYJoJXMVsDULnwLvKOa3v+pFmEw=
 			</data>
 		</dict>
-		<key>yue-HK.lproj/Localizable.strings</key>
+		<key>zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JqEzQ6xiSvK3n1wInZOZsZjhvIg=
+			</data>
+			<key>hash2</key>
+			<data>
+			4lePKI8gAMqg756rQjILDeTrWaCqQJIixk8ctN3HBF4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-Hant-HK.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -320,7 +333,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>zh-Hant-TW.lproj/Localizable.strings</key>
+		<key>zh-Hant.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -329,19 +342,6 @@
 			<key>hash2</key>
 			<data>
 			QuVhP7OcrPwSc1DcXsW9tz/ExJkH7n8V1G5OcmOqqnI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh-Hant.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JqEzQ6xiSvK3n1wInZOZsZjhvIg=
-			</data>
-			<key>hash2</key>
-			<data>
-			4lePKI8gAMqg756rQjILDeTrWaCqQJIixk8ctN3HBF4=
 			</data>
 			<key>optional</key>
 			<true/>
