@@ -3,12 +3,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PQCheckIdentity.h"
-#import "PQCheckCheck.h"
-#import "PQCheckClientLib.h"
 
 typedef NS_ENUM(NSInteger, PQCheckType) {
     PQCheckTypeFaceOnly,
+    PQCheckTypeFaceOnlyFast,
     PQCheckTypeSpokenPhrase,
     PQCheckTypeSpokenNumber,
     PQCheckTypeSpokenNumberSequence
@@ -28,24 +26,16 @@ typedef NS_ENUM(NSInteger, PQDemoMode) {
 };
 
 typedef NS_ENUM(NSInteger, PQCheckResult) {
-    PQCheckResultNotRun,
-    PQCheckResultMatchGood,
-    PQCheckResultMatchBad
+    PQCheckResultNotRun,    // sample not uploaded or error during upload
+    PQCheckResultCompleted,  // sample has been uploaded but the result is not yet known
+    PQCheckResultMatchGood, // sample has been uploaded and processed and the result is GOOD
+    PQCheckResultMatchBad   // sample has been uploaded and processed and the result is BAD
 };
 
-// Default biometric thresholds for a pass
-#define DEFAULT_THRESHOLD_FACE   0.6f         // FAR: 1 in 1 million
-#define DEFAULT_THRESHOLD_VOICE  0.3f
-#define DEFAULT_THRESHOLD_SPEECH_TO_TEXT 0.6f
 
-typedef void (^PQCheckResultBlock)(NSError* error, PQCheckResult result, PQCheckCheck* check);
+typedef void (^PQCheckResultBlock)(NSError* error, PQCheckResult result, NSString* httpResponseBody);
 
-@interface PQCheck : NSObject {
-@private
-    PQCheckIdentity* _identity;
-}
-
-@property (nonatomic, readonly) PQCheckIdentity* identity;
+@interface PQCheck : NSObject
 
 // General properties
 @property (nonatomic, readonly) NSURL* sampleUrl;
@@ -73,11 +63,6 @@ typedef void (^PQCheckResultBlock)(NSError* error, PQCheckResult result, PQCheck
 // Min & max recording durations
 @property (nonatomic) float minRecordDuration; // defaults to 2 seconds
 @property (nonatomic) float maxRecordDuration; // defaults to 10 seconds
-
-// Scoring thresholds
-@property (nonatomic) float thresholdFace;
-@property (nonatomic) float thresholdVoice;
-@property (nonatomic) float thresholdSpeechToText;
 
 // Callbacks
 @property (nonatomic, copy) PQCheckResultBlock gotResultBlock;
@@ -107,13 +92,12 @@ typedef void (^PQCheckResultBlock)(NSError* error, PQCheckResult result, PQCheck
 @property (nonatomic) NSString* successMessage;
 @property (nonatomic) NSString* customDoneTitlePrefix;
 @property (nonatomic) bool verboseLogging;
+@property (nonatomic) bool skipResultScreen;
 
 
 // API
 @property (nonatomic) NSDictionary<NSString *, NSString *>* httpHeaders;
 
-+ (instancetype)createInitialCheckForNewIdentity;
-+ (instancetype)createCheckForIdentity:(PQCheckIdentity*)identity;
 + (instancetype)createCheckForSampleUrl:(NSURL*)sampleUrl;
 
 - (void)startFromViewController:(UIViewController*)viewController;
