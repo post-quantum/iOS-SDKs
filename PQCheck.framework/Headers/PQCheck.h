@@ -42,7 +42,6 @@ typedef void (^PQCheckResultBlock)(NSError* error, PQCheckResult result, NSStrin
 @property (nonatomic) PQCheckType checkType;
 @property (nonatomic) PQSpeechAwareness speechAwareness;
 @property (nonatomic) NSString* spoken;
-@property (nonatomic) NSString* spokenMask;
 @property (nonatomic) PQDemoMode demoMode;
 @property (nonatomic) bool isForRegistration;
 
